@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/static/head.html',{
+"title": "Головна"
+})
+
+<body>
+	<div class="wrapper">
+		@@include("html/template-parts/header.html",{})
+		<main class="page">
+
+			<section class="spiral">
+				<div class="spiral__container container">
+					<div class="spiral__top">
+						<h2 class="section-title section-title--red">
+							<p>Your best people <br>
+								are always <span>in demand</span> and very <br>
+								<span>expensive to replace</span>
+							</p>
+						</h2>
+						<div class="spiral__subtitle subtitle">
+							<p>Employees are up to <b>6X</b> more likely to quit when their close colleague or direct manager leaves
+								the
+								company, and managers often don’t recognize the impact until it’s too late.</p>
+						</div>
+					</div>
+					<div class="spiral__body spiral-body">
+
+						<div class="spiral-body__item">
+							<p>High performer resigns</p>
+						</div>
+						<div class="spiral-body__item">
+							<p>Close colleagues are up to <span>6X</span> more likely to follow</p>
+						</div>
+						<div class="spiral-body__item">
+							<p>Remaining team members are now <span>unsettled</span> and vulnerable to recruiters</p>
+						</div>
+						<div class="spiral-body__item">
+							<p>Productivity is impacted, <span>morale decreases</span>, people start leaving</p>
+						</div>
+						<div class="spiral-body__item">
+							<p><span>Attrition Death Cycle enters its next stage</span></p>
+						</div>
+						<div class="spiral-body__image spiral-body__image--pc">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+								data-src="@img/page-home/spiral-pc.svg" decoding="async" alt="" title="">
+						</div>
+						<div class="spiral-body__image spiral-body__image--mob">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+								data-src="@img/page-home/spiral-mob.svg" decoding="async" alt="" title="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="interface">
+				<div class="interface__container container">
+					<div class="interface__wrapper">
+						<div class="interface__item">
+							<div class="interface__item-inner">
+								<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+									data-src="@img/page-home/interface-1.jpg" decoding="async" alt="" title="">
+								<span class="interface__item-title">Information Network</span>
+							</div>
+						</div>
+						<div class="interface__item">
+							<div class="interface__item-inner">
+								<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+									data-src="@img/page-home/interface-2.jpg" decoding="async" alt="" title="">
+								<span class="interface__item-title">Retention monitor</span>
+							</div>
+						</div>
+						<div class="interface__item">
+							<div class="interface__item-inner">
+								<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+									data-src="@img/page-home/interface-3.jpg" decoding="async" alt="" title="">
+								<span class="interface__item-title">Active retention case</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+						data-src="@img/page-home/" decoding="async" alt="" title=""> -->
+			<!-- <svg>
+				<use xlink:href="#performica-svg-smile">
+			</svg> -->
+
+		</main>
+		@@include('html/template-parts/footer.html',{})
+		@@include('html/template-parts/sprite-icons.html',{})
+	</div>
+
+	@@include('html/static/js.html',{})
+</body>
+
+</html>
