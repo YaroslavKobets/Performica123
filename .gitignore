@@ -6,3 +6,8 @@
 /gulpfile.js
 /gulp
 /dist
+
+.vs_code
+.DS_Store
+
+
